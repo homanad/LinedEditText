@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LinedEditText">
+        <attr name="let_showLines" format="boolean" />
+        <attr name="let_lineColor" format="color" />
+        <attr name="let_lineWidth" format="dimension" />
+        <attr name="let_dashWidth" format="dimension" />
+        <attr name="let_dashGap" format="dimension" />
+        <attr name="let_dotSpace" format="dimension" />
+        <attr name="let_lineSpacingExtra" format="dimension" />
+        <attr name="let_lineStyle">
+            <flag name="stroke" value="0" />
+            <flag name="dash" value="1" />
+            <flag name="dot" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
